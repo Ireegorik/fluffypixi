@@ -1,0 +1,33 @@
+﻿@page 
+@model fluffypixi.Views.Home.AdminModel
+@{
+    
+
+}
+<body style="margin:0;padding:0;">
+    
+    <div style="width:80vw; background-color:wheat; margin: auto; margin-top: 25px;padding-top:25px;border:1px solid;">
+        <div style="background-color:white;width:75vw;height:15vh;margin-left:2.5vw;">
+            <center style="padding-top:5vh;display:flex">
+                <p>Coins: @Model.code</p>
+                <button type="button" id="btnScore"
+        onclick="Btn_Click">
+    Click me!
+</button>
+            </center>
+            
+        </div>
+        <br />
+        <div style="display:flex;">
+            <form style="background-color:white;width:35vw;height:60vh;margin-left:3.75vw;">
+
+            </form>
+            <form style="background-color:white;width:35vw;height:60vh;margin-left:2.5vw;display:block">
+                <input maxlength="25" size="40" value="Вася">
+                <input maxlength="25" size="40" value="Вася">
+                <input maxlength="25" size="40" value="Вася">
+            </form>
+        </div>
+    </div>
+    
+</body>
